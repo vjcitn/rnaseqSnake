@@ -1,11 +1,11 @@
 # Snakemake workflow: `rnaseqSnake`
 
 [![Snakemake](https://img.shields.io/badge/snakemake-≥8.0.0-brightgreen.svg)](https://snakemake.github.io)
-[![GitHub actions status](https://github.com/vjcitn/rnaseqSnake/workflows/Tests/badge.svg?branch=main)](https://github.com/<owner>/<repo>/actions?query=branch%3Amain+workflow%3ATests)
+[![GitHub actions status](https://github.com/vjcitn/rnaseqSnake/workflows/Tests/badge.svg?branch=main)](https://github.com/vjcitn/rnaseqSnake/actions?query=branch%3Amain+workflow%3ATests)
 [![run with conda](http://img.shields.io/badge/run%20with-conda-3EB049?labelColor=000000&logo=anaconda)](https://docs.conda.io/en/latest/)
-[![workflow catalog](https://img.shields.io/badge/Snakemake%20workflow%20catalog-darkgreen)](https://snakemake.github.io/snakemake-workflow-catalog/docs/workflows/<owner>/<repo>)
+[![workflow catalog](https://img.shields.io/badge/Snakemake%20workflow%20catalog-darkgreen)](https://snakemake.github.io/snakemake-workflow-catalog/docs/workflows/vjcitn/rnaseqSnake)
 
-A Snakemake workflow for `<description>`
+A Snakemake workflow for `rnaseqGene`
 
 - [Snakemake workflow: `<name>`](#snakemake-workflow-name)
   - [Usage](#usage)
@@ -16,7 +16,7 @@ A Snakemake workflow for `<description>`
 
 ## Usage
 
-The usage of this workflow is described in the [Snakemake Workflow Catalog](https://snakemake.github.io/snakemake-workflow-catalog/docs/workflows/<owner>/<repo>).
+The usage of this workflow is described in the [Snakemake Workflow Catalog](https://snakemake.github.io/snakemake-workflow-catalog/docs/workflows/vjcitn/rnaseqSnake).
 
 Detailed information about input data and workflow configuration can also be found in the [`config/README.md`](config/README.md).
 
@@ -52,10 +52,10 @@ snakemake --cores 2 --sdm conda apptainer --directory .test
 
 ## Authors
 
-- Firstname Lastname
-  - Affiliation
-  - ORCID profile
-  - home page
+- Multiple
+  - Bioconductor project, targeting the rnaseqGene workflow package of Mike Love
+  - ORCID profile, to appear
+  - home page, to appear
 
 ## References
 
@@ -63,8 +63,6 @@ snakemake --cores 2 --sdm conda apptainer --directory .test
 
 ## TODO
 
-- Replace `<owner>` and `<repo>` everywhere in the template with the correct user name/organization, and the repository name. The workflow will be automatically added to the [snakemake workflow catalog](https://snakemake.github.io/snakemake-workflow-catalog/index.html) once it is publicly available on Github.
-- Replace `<name>` with the workflow name (can be the same as `<repo>`).
 - Replace `<description>` with a description of what the workflow does.
 - Update the [deployment](#deployment-options), [authors](#authors) and [references](#references) sections.
 - Update the `README.md` badges. Add or remove badges for `conda`/`singularity`/`apptainer` usage depending on the workflow's [deployment](#deployment-options) options.
